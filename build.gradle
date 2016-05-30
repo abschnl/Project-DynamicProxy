@@ -27,6 +27,7 @@ repositories {
 dependencies {
     compile("commons-io:commons-io:1.4")
     compile("commons-lang:commons-lang:2.6")
+    compile("org.springframework.boot:spring-boot-starter-web")
     testCompile("junit:junit")
     testCompile("org.springframework:spring-test:3.1.1.RELEASE")
 }
